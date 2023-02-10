@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,300;1,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1 {
+    font-family: 'Allura', cursive;
+    font-size: 40px !important;
+}
+
+.navbar {
+    background: #FFD700;
+}
+
+.nav .nav-link.active {
+    background-color: beige;
+    color: #FFD700;
+}
+
+.nav .nav-link {
+    color: beige;
+}
+
+.navbar-toggler {
+    background-color: beige;
+}
