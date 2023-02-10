@@ -19,7 +19,7 @@
     <title>Viajando Sem Limites</title>
   </head>
   <body class="bg-black">
-    <header class="navbar navbar-expand-lg sticky-top p-4">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
       <div class="container">
         <h1 class="navbar-brand text-white m-0">Viajando sem limites</h1>
         <button
@@ -32,7 +32,7 @@
         <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
           <ul class="nav nav-pills d-block d-md-flex">
             <li class="nav-item fw-bold">
-              <a href="" class="nav-link active">
+              <a href="#about" class="nav-link">
                 <i class="bi bi-house-door me-1"></i>
                 Sobre
               </a>
@@ -60,69 +60,116 @@
       </div>
     </header>
 
-    <section id="about">
-      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="2500">
-            <img src="./images/ny.jpg" class="d-block w-100" alt="" />
+    <div class="" data-bs-spy="scroll" data-bs-target="cabecalho">
+      <section id="about">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+              <img src="./images/ny.jpg" class="d-block w-100" alt="" />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <img
+                src="./images/xangai-vista-aerea-noturna.jpg"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <img
+                src="./images/lago-lac-lioson-na-suica.jpg"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2500">
-            <img
-              src="./images/xangai-vista-aerea-noturna.jpg"
-              class="d-block w-100"
-              alt=""
-            />
-          </div>
-          <div class="carousel-item" data-bs-interval="2500">
-            <img
-              src="./images/lago-lac-lioson-na-suica.jpg"
-              class="d-block w-100"
-              alt=""
-            />
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+        <div class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="./images/sobre.jpg"
+                  class="about-img d-block w-100 rounded-2"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-7">
+                <h2 class="section-title">
+                  Conheça nossos <span> pacotes e viagens</span>
+                </h2>
+                <p>
+                  Na viajando sem limites, oferecemos uma ampla seleção de
+                  pacotes de viagem e opções para atender suas necessidades e
+                  preferências. Desde viagens rápidas e acessíveis a viagens de
+                  luxo, temos tudo que voçê precisa para tornar a sua próxima
+                  aventura incrível. Itens disponíveis na loja:
+                </p>
+                <ul>
+                  <li>
+                    Pacotes de viagem completos, incluindo transporte,
+                    acomodação e atividades
+                  </li>
+                  <li>
+                    Passagens aéras para destinos internacionais e nacionais
+                  </li>
+                  <li>Reservas de hotéis e resorts de luxo</li>
+                  <li>
+                    Excursões guiadas e passeios turísticos em destinos mais em
+                    conta
+                  </li>
+                </ul>
+                <p>
+                  Não importa onde você queira ir ou o que queira fazer, a
+                  Viajando sem limites tem o pacote ou viagem perfeito para
+                  você.Descubra todas as opções disponíveis para tornar a sua
+                  próxima aventura uma realidade
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
