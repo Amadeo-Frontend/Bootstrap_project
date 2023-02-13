@@ -36,10 +36,19 @@ header h1 {
     font-family: 'Allura', cursive;
 }
 
-.about-img {
+img {
     box-shadow: rgba(255, 255, 255, 0.3) 0px 6px 12px -2px, rgba(255, 255, 255, 0.4) 0px 3px 7px -3px;
 }
 
 .section-title span {
     color: #FFD700;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+#destaque {
+    border-top: 1px solid #CCCCCC;
+}
+
+#destaque img:hover {
+    transform: scale(1.03);
 }
