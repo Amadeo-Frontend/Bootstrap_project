@@ -8,7 +8,6 @@ body {
 
 header h1 {
     font-family: 'Allura', cursive;
-    font-size: 40px !important;
     text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
     color: #bc2e1e;
 
@@ -16,15 +15,15 @@ header h1 {
 }
 
 .navbar {
-    background: #FFD700;
+    background: slateblue;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: beige;
-    color: #FFD700;
+    color: slateblue;
 }
 
-.nav .nav-link {
+#cabecalho .nav .nav-link {
     color: beige;
 }
 
@@ -36,19 +35,61 @@ header h1 {
     font-family: 'Allura', cursive;
 }
 
+.carousel-item img {
+    height: 580px !important;
+}
+
 img {
-    box-shadow: rgba(255, 255, 255, 0.3) 0px 6px 12px -2px, rgba(255, 255, 255, 0.4) 0px 3px 7px -3px;
+    box-shadow: rgba(44, 3, 250, 0.3) 0px 6px 12px -2px, rgba(39, 183, 250, 0.4) 0px 3px 7px -3px;
 }
 
 .section-title span {
-    color: #FFD700;
-    text-shadow: 2px 2px 2px #CCCCCC;
+    color: slateblue;
+    text-shadow: 1px 1px 2px #c53bd4;
 }
 
-#destaque {
+.text-colored {
+    color: slateblue;
+}
+
+section {
     border-top: 1px solid #CCCCCC;
 }
 
 #destaque img:hover {
     transform: scale(1.03);
+}
+
+.nav-options .nav-link.active {
+    background-color: slateblue;
+    color: #fff;
+}
+
+.nav-link.active:hover {
+    color: #fff !important;
+}
+
+.nav-options .nav-link:hover {
+    color: slateblue;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-whatsapp:hover {
+    color: #c53bd4 !important;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px !important;
+    }
 }
